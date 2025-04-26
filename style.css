@@ -29,3 +29,32 @@ a:link {
 a:hover {
   color: #891616;
 }
+.story {
+  width: 75%;
+  background-color: #FBFAF8;
+  border-radius: 10px;
+  margin: auto;
+  padding: 15px;
+}
+.chatlog {
+  font-family: "Lucida Console";
+  background-color: #000000;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.left {
+  color: #19FFFF;
+}
+.right {
+  text-align: right;
+  color: #19FF19;
+}
+.nav {
+  color: white;
+}
+.navlink:link {
+  color: white;
+  text-decoration: underline
+}
