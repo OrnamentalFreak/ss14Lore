@@ -64,3 +64,11 @@ a:visited {
 .navlink:visited {
   color: white;
 }
+.flashback {
+  text-align: right;
+  font-style: italic;
+}
+.quote {
+  text-align: center;
+  font-weight: bold;
+}
