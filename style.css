@@ -29,6 +29,9 @@ a:link {
 a:hover {
   color: #891616;
 }
+a:visited {
+  color: #476C9B;
+}
 .story {
   width: 75%;
   background-color: #FBFAF8;
@@ -57,4 +60,7 @@ a:hover {
 .navlink:link {
   color: white;
   text-decoration: underline
+}
+.navlink:visited {
+  color: white;
 }
