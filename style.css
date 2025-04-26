@@ -1,0 +1,31 @@
+body {
+  background-color: #891616;
+}
+.banner {
+  color: #FBFAF8;
+}
+h1 {
+  text-align: center;
+}
+.TOC {
+  width: 50%;
+  background-color: #FBFAF8;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+}
+.TOC > p {
+  text-align: center;
+  color: #000000
+}
+h3 {
+  text-align: center;
+}
+a:link {
+  font-weight: bold;
+  color: #476C9B;
+  text-decoration: none;
+}
+a:hover {
+  color: #891616;
+}
