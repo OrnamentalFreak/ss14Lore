@@ -76,3 +76,25 @@ a:visited {
   font-family: "Courier New";
   font-style: italic;
 }
+.log {
+  font-family: "Lucida Console";
+  background-color: #000000;
+  color: white;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+.report {
+  background-color: black;
+  color: white;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Courier New";
+}
+.report > h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Courier New";
+}
