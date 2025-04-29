@@ -109,7 +109,7 @@ h2 {
 }
 .grid-container {
   display: grid;
-  width: 75%;
+  width: 50%;
   grid-template-columns: 25% 75%;
   background-color: black;
   border-width: 5px;
