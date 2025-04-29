@@ -143,6 +143,7 @@ a:visited {
 .chara {
   color: white;
   font-family: "Lucida Console";
+  text-align: center;
 }
 .charlink:link {
   color: white;
