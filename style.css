@@ -150,6 +150,9 @@ a:visited {
 .charlink:hover {
   color: #476C9B;
 }
+.charlink:visited {
+  color: white;
+}
 .dashes {
   color: white;
   font-weight: bold;
