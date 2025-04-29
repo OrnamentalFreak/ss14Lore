@@ -102,37 +102,29 @@ a:visited {
   display: flex;
   justify-content: center;
 }
-.features {
+h2 {
+  text-align: center;
+  color: #FBFAF8;
+  text-decoration: underline;
+}
+.grid-container {
   display: grid;
-  grid-template-areas:
-  "header header"
-  "name namelink";
-  grid-template-columns: 1fr 3fr;
-  gap: 2px;
-  background-color: white;
   width: 75%;
-  margin: auto;
-}
-.features > div {
+  grid-template-columns: 25% 75%;
   background-color: black;
+  border-width: 5px;
+  gap: 10px;
   padding: 10px;
-}
-.features > figure {
-  display: block;
   margin: auto;
+  border-radius: 10px;
 }
-.features > div.header {
-  grid-area: header;
+.grid-contaner > .grid-item {
+  background-color: black;
   text-align: center;
-  color: white;
-}
-.features > div.name {
-  grid-area: name;
-}
-.features > div.namelink {
-  grid-area: namelink;
-  text-align: center;
-  line-height: 120px;
+  padding: 10px;
+  color: #FBFAF8;
+  border-color: #FBFAF8;
+  border-width: 5px
 }
 .icon {
   display: block;
@@ -140,22 +132,30 @@ a:visited {
   height: 50px;
   width: 50px;
 }
-.chara {
-  color: white;
-  font-family: "Lucida Console";
+.namelbl {
+  color: #FBFAF8;
   text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Console";
+  font-size: 10px;
+}
+.ftlink {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: #FBFAF8;
 }
 .charlink:link {
-  color: white;
+  color: #FBFAF8;
 }
 .charlink:hover {
-  color: #476C9B;
+  color: #891616;
 }
 .charlink:visited {
-  color: white;
+  color: #FBFAF8;
 }
-.dashes {
-  color: white;
-  font-weight: bold;
+.AUGH {
+  height: 100px;
+  position: relative;
 }
-
