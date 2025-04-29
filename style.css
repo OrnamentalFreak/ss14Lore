@@ -102,3 +102,56 @@ a:visited {
   display: flex;
   justify-content: center;
 }
+.features {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "name namelink";
+  grid-template-columns: 1fr 3fr;
+  gap: 2px;
+  background-color: white;
+  width: 75%;
+  margin: auto;
+}
+.features > div {
+  background-color: black;
+  padding: 10px;
+}
+.features > figure {
+  display: block;
+  margin: auto;
+}
+.features > div.header {
+  grid-area: header;
+  text-align: center;
+  color: white;
+}
+.features > div.name {
+  grid-area: name;
+}
+.features > div.namelink {
+  grid-area: namelink;
+  text-align: center;
+  line-height: 120px;
+}
+.icon {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+.chara {
+  color: white;
+  font-family: "Lucida Console";
+}
+.charlink:link {
+  color: white;
+}
+.charlink:hover {
+  color: #476C9B;
+}
+.dashes {
+  color: white;
+  font-weight: bold;
+}
+
